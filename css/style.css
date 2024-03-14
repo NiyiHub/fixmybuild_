@@ -175,7 +175,7 @@ p {
     font-size: 2rem;
     font-weight: 500;
     line-height: auto;
-    transition: all .3s;
+    transition: all 0s;
 }
 
 .user li a img {
@@ -371,7 +371,7 @@ p {
 }
 
 .bottom__paragraph1 {
-    max-width: 56%;
+    max-width: 95%;
     font-size: 1.2rem;
 }
 
@@ -402,7 +402,7 @@ p {
     }
 
     .bottom__paragraph1 {
-        max-width: 80%;
+        max-width: 90%;
         line-height: 1.5;
     }
 
@@ -445,7 +445,7 @@ p {
     }
 
     .bottom__paragraph1 {
-        max-width: 85%;
+        max-width: 100%;
         font-size: 1rem;
         line-height: 1.7;
     }
