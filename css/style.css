@@ -267,23 +267,18 @@ p {
         text-decoration: none;
         display: block;
         padding: 1rem;
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-weight: 500;
         line-height: auto;
-        transition: all .3s;
+        transition: all 0s;
     }  
 
     .menu--mobile li a img {
         margin-right: 5px;
     }
 
-    .menu--mobile img {
-        width: 20%;
-    }
-
     .logo a img {
-        max-width: 40%;
-        margin-left: 8rem;
+        margin-left: 5.5rem;
         padding-bottom: 2rem;
     }
 }
