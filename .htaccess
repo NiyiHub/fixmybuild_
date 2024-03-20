@@ -6,14 +6,17 @@ AddDefaultCharset UTF-8
 
 # Handle 'cache-control' header issues
 <IfModule mod_headers.c>
+    # Cache-Control for resources intended to be cached for a week
+    Header set Cache-Control "public, max-age=604800"
+
+    # Strict no-caching for other resources
     Header always set Cache-Control "no-cache, no-store, must-revalidate"
     Header always set Pragma "no-cache"
     Header always set Expires "0"
-</IfModule>
-
-# Handle 'x-content-type-options' header
-<IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
+    Header set Access-Control-Allow-Origin "https://example.com"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
 </IfModule>
 
 # Redirect all requests to index.html for SPA
