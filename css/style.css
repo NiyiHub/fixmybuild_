@@ -341,7 +341,7 @@ p {
 }
 
 .welcome__para {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.9;
     text-align: left;
     color: #231E1E;
@@ -366,7 +366,7 @@ p {
 }
 
 .bottom__paragraph1 {
-    max-width: 95%;
+    max-width: 92%;
     font-size: 1.2rem;
 }
 
@@ -396,8 +396,12 @@ p {
         margin-left: 5rem;
     }
 
+    .welcome__para {
+        font-size: 1.3rem;
+    }
+
     .bottom__paragraph1 {
-        max-width: 90%;
+        max-width: 87%;
         line-height: 1.5;
     }
 
