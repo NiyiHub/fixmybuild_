@@ -96,7 +96,8 @@ p {
 }
 
 .btn--primary:hover {
-    background: var(--color-primary);
+    color: var(--color-primary);
+    background: #fff;
 }
 
 #btn--secondary {
@@ -287,6 +288,7 @@ p {
 .welcome {
     display: flex;
     flex-direction: column;
+    height: 80vh;
 }
 
 .welcome__top {
@@ -379,6 +381,10 @@ p {
 }
 
 @media screen and (max-width: 833px) {
+    .welcome {
+        height: 90vh;
+    }
+
     .top__section {
         flex-direction: column;
         padding-left: 8rem;
@@ -411,6 +417,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    .welcome {
+        height: 100vh;
+    }
+
     .welcome__page {
         width: 90%;
     }
