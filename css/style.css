@@ -369,12 +369,12 @@ p {
 .bottom__paragraph1,
 .bottom__paragraph2 {
     color: #fff;
-    line-height: 2.7;
+    line-height: 1.7;
 }
 
 .bottom__paragraph1 {
     max-width: 92%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .bottom__paragraph2 {
