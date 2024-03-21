@@ -288,7 +288,7 @@ p {
 .welcome {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 85vh;
 }
 
 .welcome__top {
@@ -301,6 +301,8 @@ p {
     padding: 4rem;
     padding-left: 6rem;
     padding-right: 3rem;
+    height: 50vh;
+    padding-top: 10rem;
 }
 
 .welcome__page {
@@ -353,12 +355,15 @@ p {
 .bottom__section {
     background: var(--color-primary);
     padding: 4rem;
+    height: 30vh;
 }
 
 .bottom__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-top: 8rem;
 }
 
 .bottom__paragraph1,
