@@ -378,7 +378,7 @@ p {
 }
 
 .bottom__paragraph2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .bottom--btn {
@@ -393,6 +393,8 @@ p {
     .top__section {
         flex-direction: column;
         padding-left: 8rem;
+        height: 70vh;
+        padding-top: 0;
     }
 
     .welcome__page {
@@ -411,9 +413,18 @@ p {
         font-size: 1.3rem;
     }
 
+    .bottom__section {
+        height: 20vh;
+    }
+
+    .bottom__content {
+        margin-top: 0;
+    }
+
     .bottom__paragraph1 {
         max-width: 87%;
         line-height: 1.5;
+        font-size: 1.2rem;
     }
 
     .bottom--btn {
@@ -436,6 +447,7 @@ p {
 
     .top__section {
         padding-left: 3rem;
+        height: 65vh;
     }
 
     .welcome__illustration{
@@ -458,6 +470,10 @@ p {
         margin-top: 1rem;
     }
 
+    .bottom__section {
+        height: 25vh;
+    }
+
     .bottom__paragraph1 {
         max-width: 100%;
         font-size: 1rem;
@@ -465,7 +481,7 @@ p {
     }
 
     .bottom__paragraph2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 1.7;
     }
 }
