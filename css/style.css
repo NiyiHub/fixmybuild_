@@ -288,7 +288,7 @@ p {
 .welcome {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    min-height: 80vh;
 }
 
 .welcome__top {
@@ -369,11 +369,11 @@ p {
 
 .bottom__paragraph1 {
     max-width: 92%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .bottom__paragraph2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .bottom--btn {
