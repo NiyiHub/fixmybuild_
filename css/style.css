@@ -288,7 +288,6 @@ p {
 .welcome {
     display: flex;
     flex-direction: column;
-    min-height: 80vh;
 }
 
 .welcome__top {
@@ -380,11 +379,13 @@ p {
     font-size: 1.6rem;
 }
 
-@media screen and (max-width: 833px) {
+@media screen and (min-width: 769px) {
     .welcome {
-        height: 90vh;
+        min-height: 80vh;
     }
+}
 
+@media screen and (max-width: 768px) {
     .top__section {
         flex-direction: column;
         padding-left: 8rem;
@@ -417,13 +418,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    .welcome {
-        height: 100vh;
-    }
-
     .welcome__page {
         width: 90%;
     }
+
     .welcome__heading {
         font-size: 3.5rem;
         line-height: 1;
